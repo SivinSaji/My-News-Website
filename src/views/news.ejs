@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Node.js news</title>
 </head>
+<%- include("partials/header.ejs") %> 
 <body>
+    <%- include("partials/navbar.ejs") %> 
     <h1>Node.js News</h1>
 
     <% articles.forEach(function(article, index) { %>
